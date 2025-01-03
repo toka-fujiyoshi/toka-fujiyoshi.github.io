@@ -1,0 +1,12 @@
+# Ignore artifacts:
+public
+coverage
+dist
+package.json
+package-lock.json
+README.md
+.prettierrc
+.prettierignore
+
+# Ignore all HTML files:
+**/*.html
