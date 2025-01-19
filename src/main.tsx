@@ -12,6 +12,10 @@ import { Root } from './pages/Root/Root'
 import { Error404 } from './pages/Error/Error404'
 import { Top } from './pages/Top/Top'
 import { Todo } from './pages/Todo/Todo'
+import '@fontsource/roboto/300.css'
+import '@fontsource/roboto/400.css'
+import '@fontsource/roboto/500.css'
+import '@fontsource/roboto/700.css'
 
 // MUIのテーマ作成
 const theme = createTheme({
