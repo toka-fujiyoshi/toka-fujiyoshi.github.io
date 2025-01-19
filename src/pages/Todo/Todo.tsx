@@ -1,4 +1,6 @@
+import { TodoContainer } from '@/features/Todo/components/TodoContainer'
 import Box from '@mui/material/Box'
+import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { Helmet } from 'react-helmet-async'
 
@@ -13,7 +15,12 @@ export const Todo = () => {
                 <title>Todoアプリ</title>
             </Helmet>
             <Box>
-                <Typography>Todoアプリページです</Typography>
+                <Container maxWidth={false}>
+                    <Typography>Todoアプリページです</Typography>
+                    <Container>
+                        <TodoContainer />
+                    </Container>
+                </Container>
             </Box>
         </>
     )
