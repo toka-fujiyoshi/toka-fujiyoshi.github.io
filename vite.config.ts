@@ -8,9 +8,9 @@ export default defineConfig({
     plugins: [react(), tsconfigPaths()],
     // TODO: 「test」部分にエラーが出る
     // https://zenn.dev/renoa/articles/vite-vitest-type-error
-    // test: {
-    //     globals: true,
-    //     environment: 'happy-dom',
-    //     setupFiles: './vitest-setup.ts',
-    // },
+    test: {
+        globals: true,
+        environment: 'happy-dom',
+        setupFiles: './vitest-setup.ts',
+    },
 })
